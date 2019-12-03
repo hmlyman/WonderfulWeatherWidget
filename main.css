@@ -1,0 +1,86 @@
+#logo{
+    display: inline-block;
+}
+
+#logo1{
+    color: rgb(4,4,66);
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 128px;
+    height: 127px;
+    display: inline-block;
+}
+
+
+#logo2{
+   height: auto;
+   width: auto;
+   margin: auto;
+   padding: 5px;
+display: inline-block;
+}
+
+body{
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    color: rgb(4, 4, 66);
+    background-color: whitesmoke;
+}
+
+#content{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 20px;
+}
+
+.day1{
+    grid-row-start: 1;
+    grid-row-end: span 2;
+    grid-column-start: 2;
+    grid-column-end: span 2;
+    margin: auto;
+    padding: auto;
+    align-content: auto;
+
+}
+.day2{
+    grid-row-start: 4;
+    grid-row-end: span 2;
+    grid-column-start: 1;
+    grid-column-end: span 1;
+    margin: auto;
+    padding: auto;
+    align-content: auto;
+}
+
+.day3{
+    grid-row-start: 4;
+    grid-row-end: span 2;
+    grid-column-start: 2;
+    grid-column-end: span 1;
+    margin: auto;
+    padding: auto;
+    align-content: auto;
+}
+
+.day4{
+    grid-row-start: 4;
+    grid-row-end: span 2;
+    grid-column-start: 3;
+    grid-column-end: span 1;
+    margin: auto;
+    padding: auto;
+    align-content: auto;
+}
+
+.day5{
+    grid-row-start: 4;
+    grid-row-end: span 2;
+    grid-column-start: 4;
+    grid-column-end: span 1;
+    margin: auto;
+    padding: auto;
+    align-content: auto;
+}
+
