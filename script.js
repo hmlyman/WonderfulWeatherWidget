@@ -7,10 +7,16 @@ function loadData() {
     
     request.open('GET', url, true);
     request.onload = loadComplete;
+    request.onerror = errorLoading;
     request.send();
 }
 
 loadData();
+
+// https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequestEventTarget/onerror
+function errorLoading() {
+
+}
 
 function loadComplete(evt) {
     weatherData = JSON.parse(evt.currentTarget.responseText);
