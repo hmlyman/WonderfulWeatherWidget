@@ -1,7 +1,7 @@
 #logo{
     display:grid;
     grid-template-columns: auto auto auto auto;
-    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
     margin: 10px;
 }
 
@@ -14,28 +14,30 @@
     font-size: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     width: 128px;
-    height: 127px;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 
 #logo2{
-    grid-row-start: 2;
-    grid-row-end: span 1;
+    grid-row-start: 1;
+    grid-row-end: span 2;
     grid-column-start: 1;
     grid-column-end: span 1;
     height: auto;
     width: auto;
-    margin: auto;
+    text-align: right;
     padding: 5px;
    
 }
 #button{
-    grid-row-start: 2;
+    grid-row-start: 1;
     grid-row-end: span 1;
     grid-column-start: 4;
     grid-column-end: span 1;
     padding-top: 75px;
-    object-position: right;
+    text-align: right;
     
 }
 
@@ -44,10 +46,9 @@
     grid-row-end: span 1;
     grid-column-start: 4;
     grid-column-end: span 1;
-    height: 
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: red;
-    justify-items: right;
+    text-align: right;
 
 }
 
